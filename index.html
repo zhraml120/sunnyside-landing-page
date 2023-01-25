@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="./images/logo.svg" alt="logo">
+      <ul id="desktop">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><button>Contact</button></li>
+      </ul>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+      
+    </nav>
+    <nav id="mobile">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><button>Contact</button></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="heading">WE ARE CREATIVES</h1>
+      <a href="#main">
+        <img class="animate-bounce" src="./images/icon-arrow-down.svg" alt="icon arrow">
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="main-content" id="main">
+      <div class="main-text">
+        <h1>Transform your brand</h1>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+      <div class="illustration">
+        <img src="./images/desktop/image-transform.jpg" alt="illustration">
+      </div>
+    </div>
+    <div class="main-content-2">
+      <div class="illustration">
+        <img src="./images/desktop/image-stand-out.jpg" alt="illustration">
+      </div>
+      <div class="main-text">
+        <h1>Stand out to the right audience</h1>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="illustration flex-col">
+        <img class="ill-img cover" src="./images/desktop/image-graphic-design.jpg" alt="illustration">
+        <div class="ill-text-1 flex flex-col gap-5">
+          <h1>Graphic Design</h1>
+          <p>
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+          </p>
+        </div>
+      </div>
+      <div class="illustration flex-col">
+        <img class="ill-img cover" src="./images/desktop/image-photography.jpg" alt="illustration">
+        <div class="ill-text-2 flex flex-col gap-5">
+          <h1>Photography</h1>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials text-center">
+      <h4>CLIENT TESTIMONIALS</h4>
+      <div class="user-testi">
+        <div class="illustration flex flex-col items-center  gap-12">
+          <img class="user-img w-32 rounded-full" src="./images/image-emily.jpg" alt="user-img">
+          <div class="testi-text flex flex-col gap-7">
+            <p>
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+            <div class="user-detail">
+              <h5>Emily R.</h5>
+              <span>Marketing Director</span>
+            </div>
+          </div>
+        </div>
+        <div class="illustration flex flex-col items-center gap-12">
+          <img class="user-img w-32 rounded-full" src="./images/image-thomas.jpg" alt="user-img">
+          <div class="testi-text flex flex-col gap-7">
+            <p>
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+            <div class="user-detail">
+              <h5>Emily R.</h5>
+              <span>Marketing Director</span>
+            </div>
+          </div>
+        </div>
+        <div class="illustration flex flex-col items-center gap-12">
+          <img class="user-img w-32 rounded-full" src="./images/image-jennie.jpg" alt="user-img">
+          <div class="testi-text flex flex-col gap-7">
+            <p>
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+            <div class="user-detail">
+              <h5>Emily R.</h5>
+              <span>Marketing Director</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="">
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="">
+      <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </div>
+  </main>
+  <footer class="flex flex-col justify-center items-center gap-5">
+    <h1>sunnyside</h1>
+    <ul class="flex gap-12">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+    <div class="social-media flex gap-5 mt-12">
+      <img src="./images/favicon-32x32.png" alt="">
+      <img src="./images/favicon-32x32.png" alt="">
+      <img src="./images/favicon-32x32.png" alt="">
+    </div>
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Zaharaaml</a>.
+  </div>
+</body>
+</html>
+
+
+<script>
+  const menu_btn = document.querySelector('.hamburger');
+  const mobile_menu = document.querySelector('#mobile');
+  menu_btn.addEventListener('click', function(){
+    menu_btn.classList.toggle('is-active');
+    if(menu_btn.classList.contains('is-active')){
+      mobile_menu.style.display = "block"
+    }else{
+      mobile_menu.style.display = "none"
+    }
+  })
+</script>
